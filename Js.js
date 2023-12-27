@@ -66,7 +66,7 @@ function exibir(){
   }
   acordes.innerHTML = `
     <p>${nomeAcorde.exibicao[numero].nome}</p>
-    <div class="acordes">
+    <div class="acordes2">
       <img src="${nomeAcorde.exibicao[numero].img}">
     </div>
       `;

@@ -1,5 +1,5 @@
 *{
- /* outline: 1px red dashed;*/
+ outline: 1px red dashed;
   margin: 0;
 }
 
@@ -30,7 +30,7 @@ input{
   width: 100%;
   display: flex;
   flex-direction: column;
-  position: relative;
+  /* position: relative; */
   align-items: center;
   justify-content: center;
 }
@@ -43,17 +43,24 @@ p{
 }
 
 .acordes{
-  width: 60%;
+  width: 30%;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-img{
+.acordes2{
+  width: 100%;
+  /* height: 100%; */
   display: flex;
   justify-content: center;
-  width: 100%;
-  height: 400px;
+}
+
+img{
+  width: 30%;
+  /* height: 0%; */
+  display: flex;
+  justify-content: center;
 }
 
 .header{
